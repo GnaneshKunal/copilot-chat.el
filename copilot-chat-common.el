@@ -124,7 +124,7 @@ Argument NOCONTEXT tells copilot-chat to not send history and buffers."
 
     (json-encode `(("messages" . ,(vconcat messages))
                    ("top_p" . 1)
-                   ("model" . "gpt-4o-2024-05-13")
+                   ("model" . "o1-preview")
                    ("stream" . t)
                    ("n" . 1)
                    ("intent" . t)
